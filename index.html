@@ -5,11 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack/Babel Starter</title>
+    <title>Microposts</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Webpack/Babel Starter</h1>
+    <header>
+        <a href="#" class="brand">MicroPosts</a>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="card">
+                <h1>Say something</h1>
+                <p class="lead">What's on your mind?</p>
+                <div class="input-group">
+                    <input type="text" id="title" placeholder="Post title">
+                </div>
+                <div class="input-group">
+                    <textarea type="text" id="body" placeholder="Post content"></textarea>
+                </div>
+                <input type="hidden" id="id" value="">
+                <button id="post-submit">Submit Post</button>
+            </div>
+            <br>
+            <div class="posts"></div>
+        </div>
+        <a href="#" id="scroll-top">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+    </main>
+    <footer>MicroPosts &copy;</footer>
     <script src="/build/app.bundle.js"></script>
 </body>
 
