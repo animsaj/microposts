@@ -1,3 +1,3 @@
-# babel-webpack-basic
+# microposts
 
-Basic setup of webpack with babel to enable usage of newest features, including async/await. 
+CRUD frontend without any framework or library, only es6 features. 
